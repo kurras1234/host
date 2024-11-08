@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../node_modules/font-awesome/css/font-awesome.css';
+::ng-deep .header {
+    font-size: 34px;
+    text-align: center;
+  }
+  
+  ::ng-deep #container {
+    padding: 10px;
+  }
+  
+  ::ng-deep #container ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  ::ng-deep #container ul li {
+    display: inline-block;
+    width: 160px;
+    margin: 10px;
+  }
+  
+  ::ng-deep #container ul li img {
+    width: 100px;
+  }
+  
+  ::ng-deep .button-info {
+    margin: 10px;
+  }
+  
+  ::ng-deep .dx-popup-content p {
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  
+ .list ul li {
+    display: inline-block;
+    padding: 30px;
+ }
